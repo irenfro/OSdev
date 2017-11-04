@@ -3,3 +3,9 @@
 
 # Swap files
 *.swp
+
+# Bin files
+*.bin
+
+# iso builds
+*.iso
