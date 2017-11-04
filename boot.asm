@@ -27,7 +27,7 @@ section .bss
 align 16
 stack_bottom:
 resb 16386 ; 16 KiB like the skip command
-stck_top:
+stack_top:
 
 ; The linker script specifies _start as the entry point to the kernal and the 
 ; bootloader will jump to this position once the kernal has been loaded.  It
